@@ -1,0 +1,4 @@
+[
+    {"code" : "code01", "nas_id" : "nasid01", "resBody" : {"token": "token01"}},
+    {"code" : "code02", "nas_id" : "nasid01", "resBody" : {"token": "token02"}}
+]

@@ -1,0 +1,4 @@
+[
+    {"token" : "token01", "resBody" : {"user_id": "jesttest@ssdi.sharp.co.in", "nas_user_id": "jesttest", "tenant_id": "01JEST01"}},
+    {"token" : "token02", "resBody" : {"user_id": "user@ssdi.sharp.co.in", "nas_user_id": "user", "tenant_id": "01JEST01"}}
+]

@@ -1,0 +1,6 @@
+{
+    "$product_endpoint": "https://portal.cocoro-office.com",
+    "$staging endpoint":  "https://cocoro-office.shcloudio.com",
+    
+    "endpoint": "https://cocoro-office.shcloudio.com"
+}
