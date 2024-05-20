@@ -5,7 +5,7 @@ var app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-const testdata_path = path.join(__dirname, ".testdata");
+const testdata_path = path.join(__dirname, "data");
 const api_token_path = path.join(testdata_path, "api_token.json");
 const api_user_path = path.join(testdata_path, "api_user.json");
 const shared_folder_path = path.join(testdata_path, "shared_folder.json");
@@ -26,25 +26,6 @@ app.get('/fax_settinginfo', function (req, res) {
         }
     }});
 });
-
-
-// // Define a route to serve shared folder information based on user
-// app.get('/shared_folder_info/permission:user', (req, res) => {
-//     const user = req.params.user;
-//     // let data = fs.readFileSync(sharedFolders_path+'/'+user);
-
-//     let data = fs.readFileSync('C:/Users/Administrator/Desktop/node-service/.testdata/nas/sharefolder/user');
-    
-//     let sharedFolders = JSON.parse(data)
-//     resolve(sharedFolders.permission);
-
-//     if (sharedFolders.hasOwnProperty(user)) {
-//       res.json(sharedFolders[user]);
-//     } else {
-//       res.status(404).json({ error: 'User not found' });
-//     }
-//   });
-
 
 
 app.post('/searchstub/nasapi', (req, res) => {
