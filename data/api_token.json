@@ -1,4 +1,14 @@
 [
     {"code" : "code01", "nas_id" : "nasid01", "resBody" : {"token": "token01"}},
-    {"code" : "code02", "nas_id" : "nasid01", "resBody" : {"token": "token02"}}
+    {"code" : "code02", "nas_id" : "nasid01", "resBody" : {"token": "token02"}},
+    {"code" : "code01", "nas_id" : "60-84-bd-c0-0a-05", "resBody" : {"token": "token01"}},
+    {"code" : "code02", "nas_id" : "60-84-bd-c0-0a-05", "resBody" : {"token": "token02"}},
+    {"code" : "code01", "nas_id" : "24-5e-be-63-71-36", "resBody" : {"token": "token01"}},
+    {"code" : "code02", "nas_id" : "24-5e-be-63-71-36", "resBody" : {"token": "token02"}},
+    {"code" : "codeWithoutToken01", "nas_id" : "nasid01", "resBody" : {"token": "notToken01"}},
+    {"code" : "codeWithoutToken02", "nas_id" : "nasid01", "resBody" : {"token": "notToken02"}},
+    {"code" : "codeWithoutToken01", "nas_id" : "60-84-bd-c0-0a-05", "resBody" : {"token": "notToken01"}},
+    {"code" : "codeWithoutToken02", "nas_id" : "60-84-bd-c0-0a-05", "resBody" : {"token": "notToken02"}},
+    {"code" : "codeWithoutToken01", "nas_id" : "24-5e-be-63-71-36", "resBody" : {"token": "notToken01"}},
+    {"code" : "codeWithoutToken02", "nas_id" : "24-5e-be-63-71-36", "resBody" : {"token": "notToken02"}}
 ]
