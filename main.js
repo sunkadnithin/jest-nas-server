@@ -89,6 +89,17 @@ app.get('/api/v0/users', (req, res) => {
 });
 
 
+app.get('/shared_folder_info/user/:user', (req, res) => {
+  const user = req. url.split('/')[3];
+  const sharedFolders = JSON.parse(fs.readFileSync(shared_folder_path));
+  if (sharedFolders.hasOwnProperty(user)) {
+    res.status(200).json({"user" : user});
+  }
+  else{
+    res.status(400).json("User not found");
+  }
+});
+
 // Handle 404 - Keep this as a last route
 app.use(function(req, res, next) {
     res.status(404);
